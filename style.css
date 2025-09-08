@@ -1,0 +1,101 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #F8F5F2;
+    color: #3d3d3d;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+h1 {
+    font-size: 3rem;
+    color: #2c5c3b;
+    margin: 0;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0em;
+    text-align: center;
+    color: #4a7c59; /* Match Notify Me button color */
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 400px; /* Adjust as needed */
+    max-width: 100%;
+    margin-bottom: 0.2em; /* Reduce space below logo */
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: #3d3d3d;
+}
+.description {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+form p {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input[type="email"] {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+button[type="submit"] {
+    padding: 12px 20px;
+    border: none;
+    background-color: #4a7c59;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+button[type="submit"]:hover {
+    background-color: #2c5c3b;
+}
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+@media (max-width: 480px) {
+    .form-group {
+        flex-direction: column;
+    }
+    input[type="email"], button[type="submit"] {
+        border-radius: 6px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    input[type="email"] {
+        margin-bottom: 10px;
+    }
+}
