@@ -1,5 +1,5 @@
 body {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #F8F5F2;
     color: #3d3d3d;
     margin: 0;
@@ -12,7 +12,7 @@ body {
 }
 .container {
     max-width: 600px;
-    text-align: center;
+    text-align: left; /* Change from center to left */
     background-color: #ffffff;
     padding: 40px;
     border-radius: 12px;
@@ -20,6 +20,13 @@ body {
 }
 h1 {
     font-size: 3rem;
+    color: #2c5c3b;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
     color: #2c5c3b;
     margin: 0;
     font-weight: 700;
@@ -85,6 +92,7 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
     color: #aaa;
+    text-align: center;
 }
 @media (max-width: 480px) {
     .form-group {
@@ -98,4 +106,9 @@ footer {
     input[type="email"] {
         margin-bottom: 10px;
     }
+}
+
+main h1,
+main > p:first-of-type {
+    text-align: center;
 }
